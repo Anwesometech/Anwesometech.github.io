@@ -172,7 +172,7 @@ var NavbarComponent = function (_Component) {
     _createClass(NavbarComponent, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(_reactMaterialize.Navbar, { brand: 'ANSWESOME TECH', className: 'purple darken-4' });
+            return _react2.default.createElement(_reactMaterialize.Navbar, { brand: 'Anwesome Tech', className: 'purple darken-4' });
         }
     }]);
 
