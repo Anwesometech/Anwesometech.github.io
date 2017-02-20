@@ -6,6 +6,6 @@ export default class NavbarComponent extends Component {
         super(props)
     }
     render() {
-        return (<Navbar brand="Anwesome Tech" className="cyan darken-1"></Navbar>)
+        return (<Navbar brand="Anwesome Tech" className="grey darken-4"></Navbar>)
     }
 }
