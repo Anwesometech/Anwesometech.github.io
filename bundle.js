@@ -42,17 +42,25 @@ var AboutUs = function (_Component) {
                 { popout: true },
                 _react2.default.createElement(
                     _reactMaterialize.CollapsibleItem,
-                    { header: 'What we do', icon: 'filter_drama' },
-                    'We are trying to solve problems that people face on daily basis with technology'
+                    { header: 'Who are we?', icon: 'whatshot', expanded: 'true' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'white' },
+                        'Anwesome technologies is founded in 2016 a registered company under the new companies act by a group of NIT engineers having wide range of track record.'
+                    )
                 ),
                 _react2.default.createElement(
                     _reactMaterialize.CollapsibleItem,
-                    { header: 'Who are we', icon: 'whatshot' },
-                    'We are bunch of like minded people who have rich experience in technology,marketting and sales'
+                    { header: 'What we do?', icon: 'filter_drama', expanded: 'true' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'white' },
+                        'The company is passionate about the product. The entrepreneur transform inspired innovation into realistic solutions. We keep on innovating new ideas and make sure our designs are latest and fully functional for the clients.'
+                    )
                 ),
                 _react2.default.createElement(
                     _reactMaterialize.CollapsibleItem,
-                    { header: 'Where are we located', icon: 'place' },
+                    { header: 'Where are we located', icon: 'place', expanded: 'true' },
                     _react2.default.createElement(
                         _reactMaterialize.Row,
                         null,
